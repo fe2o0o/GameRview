@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameReviews</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="master-css/all.css">
+    <link rel="stylesheet" href="master-css/bootstrap.min.css">
+    <link rel="stylesheet" href="master-css/index.css">
+</head>
+<body>
+    <section id="game" class="">
+        <header>
+            <img src="images/wraper.png" class="w-100" alt="">
+        </header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container p-3 rounded-5 col-md-6 col-lg-9 ">
+                <div class="logo d-flex align-items-center ">
+                    <img src="images/logo-sm.png"   alt="">
+                    <h3 class="m-0">GAME REVIEWS</h3>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link link active" href="#" data-category="mmorpg">MMORPG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="#" data-category="shooter">SHOOTER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="#" data-category="sailing">SAILING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="#" data-category="permadeath">PERMADEATH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="#" data-category="superhero">SUPERHERO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="#" data-category="pixel">PIXEL</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main id="mainGame" class="">
+            <div class="container ">
+                <div id="gameSet" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 my-5 g-4">
+                    
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <section id="details" class="vh-100 d-none ">
+        <div class="container py-2">
+            <i id="btnEx" class="fa-regular fa-circle-xmark text-danger float-end"></i>
+            <h1 class="text-white pb-3">Details Game</h1>
+            <div id="detailsSet" class="row">
+                <div class="col-md-4">
+                    <img src="images/thumbnail.jpg" class="w-100" alt="">
+                </div>
+                <div class="col-md-7 text-white">
+                    <h2>Title: <span>Drakensang Online</span></h2>
+                    <p>Category: <span></span></p>
+                    <p>Platform: <span></span></p>
+                    <p>Status: <span></span></p>
+                    <p>
+                        Drakensang Online is a free to play browser-based top-down hack-and-slash 3D MMORPG, players of Blizzard’s Diablo series
+                        will no doubt find the gameplay of Drakensang Online familiar. This browser MMORPG offers much despite its relative
+                        obscurity. Drakensang Online boasts only four character classes, but they benefit from being well-balanced between one
+                        another without feeling scaled-down. Leveling up and buying new in-game merchandise is easy since currency is dropped by
+                        defeated monsters, making those new items accessible that much faster. Drakensang Online also boasts impressive graphics
+                        for itself, with a smooth feel that is rarely found in a browser-based MMORPG. Of course, Drakensang Online needs these
+                        smooth graphics as the combat and action within is fast-paced and adrenaline-fueled as players engage hordes of enemies
+                        in gripping battles. The PvP arena in Drakensang Online also gives players the chance to engage one another in combat
+                        for fun, rewards, and greater experience. The lack of downloading and the free-to-play nature of Drakensang Online
+                        combined with its Diablo feel make it an engaging game for gamers of all varieties to play.
+                    </p>
+                    <a href="https://www.google.com" class="btn btn-outline-warning" target="_blank">show game</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="loading" class="vh-100 d-flex justify-content-center align-items-center d-none">
+        <div class="spinner-border text-danger" role="status">
+            <span class="sr-only">Loading...</span>
+            <div id="reverseRotate" class="spinner-border text-light" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+    </section>
+    <script src="master-js/index.js" type="module"></script>
+    <script src="master-js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+body{
+    background-color: #272b30;
+    font-family: 'Shantell Sans', cursive;
+}
+
+#game header img{
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+nav .logo h3{
+    font-size: 21px;
+    font-weight: 500;
+    color: white;
+    line-height:24px;
+}
+
+.link{
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    cursor: pointer !important;
+    color: white ;
+}
+
+.navbar .container .logo img{
+    max-width: 40px;
+}
+
+.navbar .container{
+    background-color: #3a497b !important;
+}
+
+.active{
+    color: #1a74a6 !important;
+}
+
+#navbarNav li a:hover{
+    color: #1a74a6 !important ;
+}
+
+.foot-style{
+    font-size: 11px;
+    color: white;
+    font-weight: 700;
+    background-color: #363739;
+}
+
+.card-border{
+    border:2px solid rgba(0, 0, 0, 0.188);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    filter: grayscale(0.8);
+    -webkit-filter: grayscale(0.8);
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+
+.card-border:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    transform: scale(110%);
+    -webkit-transform: scale(110%);
+    -moz-transform: scale(110%);
+    -ms-transform: scale(110%);
+    -o-transform: scale(110%);
+}
+
+#loading div{
+    width: 100px;
+    height: 100px;
+    animation: rotate 2s infinite linear;
+    -webkit-animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+
+    50%{
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+}
+
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+}
+
+
+.h{
+    height: 100% !important;
+}
